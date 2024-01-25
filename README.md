@@ -5,7 +5,25 @@ Flutter + WalletConnect で作成するサンプル用 Web3 モバイルアプ�
 ## 動かし方
 
 ```bash
-cd sample_web3_app && flutter run
+cd sample_web3_app && flutter run --dart-define=PROJECT_ID={YOUR_PROJECT_ID}
+```
+
+以下で WalletConnect 用のライブラリをインストール
+
+```bash
+flutter pub add web3modal_flutter
+```
+
+## Flutter と Dart のバージョン上げ方
+
+```bash
+flutter upgrade
+```
+
+以下で確認
+
+```bash
+dart --version
 ```
 
 ### 参考文献
